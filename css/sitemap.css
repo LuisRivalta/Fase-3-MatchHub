@@ -1,0 +1,13 @@
+/* Header  */
+header {
+background: var(--cor-preto);
+}
+
+.sitemap-link:hover {
+    color: var(--cor-azul-bg) !important;
+    transition: 0.2s ease-in-out;
+}
+
+.mapa {
+    min-height: 65dvh;
+}

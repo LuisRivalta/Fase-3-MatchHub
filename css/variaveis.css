@@ -1,0 +1,54 @@
+/* VARIAVEIS */
+:root {
+    /* Cores */
+    --cor-branco: #fff;
+    --cor-preto: #000;
+    --cor-cinza: #bfbfbf;
+    --cor-cinzaEscuro: #222;  
+    --cor-cinzaTexto: #9d9d9d;
+    --cor-bg: #1e1e1e;
+    --cor-bgEscuro: #0f0f0f;
+    --cor-azul-bg: #112a53;
+    --cor-azul: #0d6efd;
+    --cor-azul2: #2a63bf;
+    --cor-verde: #3c9d4c;
+    --cor-rosa: #ed145b;
+    --cor-cinzaTexto: #9d9d9d;
+  
+    /* Gradientes */
+    --gradient-azul: linear-gradient(to bottom, var(--cor-azul2), var(--cor-azul-bg));
+}
+  
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+/* ESTILOS GERAIS */
+a {
+    text-decoration: none;
+    color: var(--cor-cinzaEscuro);
+}
+  
+body {
+    background-color: var(--cor-bg);
+}
+
+.text-azul {
+    color: var(--cor-azul);
+}
+  
+.text-rosa-fiap {
+    color: var(--cor-rosa);
+}
+
+.text-cinza {
+    color: var(--cor-cinza);
+}
+  
+.texto-justificado {
+    text-align: justify;
+  }

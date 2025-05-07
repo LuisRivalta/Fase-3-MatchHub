@@ -1,0 +1,47 @@
+header {
+  background: var(--cor-preto);
+}
+
+.main-teste {
+  background-image: url(../static/img/cadastro/cadastro-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-continuar {
+  width: 100%;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box !important;
+}
+
+.btn-continuar {
+  padding: 10px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--branco);
+  background-color: var(--cor-azul);
+  border: 2px solid var(--cor-azul);
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.btn-continuar:hover {
+  background-color: transparent !important;
+  color: var(--cor-azul) !important;
+}
+
+#gif-concluido {
+  display: none;
+}
+
+#gif-concluido {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+#gif-concluido.loaded {
+  opacity: 1;
+}
